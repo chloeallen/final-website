@@ -22,12 +22,14 @@ $(window).load(function(){
         footerHeight        = $('footer').height(),
         heightDocument      = (windowHeight) + ($('.content').height()) + ($('footer').height()) - 20;
 
-    // Definindo o tamanho do elemento pra animar
+    // Defines the size of the element that animates
+
     $('#scroll-animate, #scroll-animate-main').css({
         'height' :  heightDocument + 'px'
     });
 
-    // Definindo o tamanho dos elementos header e conteúdo
+    // Defining the size of the header and content elements
+    
     $('header').css({
         'height' : windowHeight + 'px',
         'line-height' : windowHeight + 'px'
@@ -39,7 +41,7 @@ $(window).load(function(){
 
     scrollFooter(window.scrollY, footerHeight);
 
-    // ao dar rolagem
+   
     window.onscroll = function(){
         var scroll = window.scrollY;
 

@@ -51,9 +51,9 @@ footer
 
 .content
 {
-  height: 1000px;
-  min-height: 1000px;
-  background: #ededed;
+  height: 529px;
+  min-height: 520px;
+  background: white;
   position: relative;
   z-index: 1;
 }
@@ -99,11 +99,39 @@ h2{
 
 header h2{}
 
-.content h2{
-  line-height: 1000px;
-  color: #999;
+/*images*/
+
+
+#contentimages {
+
+
+
+
+white-space: nowrap; 
+
 }
 
+.imageone {
+
+  width:32%;
+ 
+
+
+}
+
+.imagetwo {
+  width:31%;
+  
+  
+ 
+}
+
+.imagethree {
+
+  width:32%;
+
+
+ }
 
 /* footer */
 
