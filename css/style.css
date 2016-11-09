@@ -105,8 +105,6 @@ header h2{}
 #contentimages {
 
 
-
-
 white-space: nowrap; 
 
 }
@@ -114,10 +112,28 @@ white-space: nowrap;
 .imageone {
 
   width:32%;
+  position: relative;
+  
  
 
+}
+
+
+.imageonehead {
+   position: absolute;
+   left: 0px;
+   right: 20px;
+   width:32%;
+   padding-bottom: 100px;
 
 }
+
+ .imageonehead:hover {
+
+display: none; 
+}
+
+
 
 .imagetwo {
   width:31%;
@@ -125,6 +141,11 @@ white-space: nowrap;
   
  
 }
+
+
+.imagetwoorange 
+{ 
+width:31%;}
 
 .imagethree {
 
