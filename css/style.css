@@ -162,7 +162,8 @@ opacity: 0;
 
 .imagetwoorange {
    position: absolute;
-   left: 657px;
+   left: 657px; 
+  /* code for other screen size left: 574px; */
    right: 0px;
    width:31%;
   opacity:0;
