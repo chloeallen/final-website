@@ -72,7 +72,7 @@ h1{
   text-transform: uppercase;
   text-align: center;
   font-family: Helvetica;
-  font-size: 110px;
+  font-size: 100px;
   color: #fff;
 }
 
@@ -109,12 +109,15 @@ white-space: nowrap;
 
 }
 
+
+
+/* image one */
+
 .imageone {
 
   width:32%;
   position: relative;
   
- 
 
 }
 
@@ -124,28 +127,51 @@ white-space: nowrap;
    left: 0px;
    right: 20px;
    width:32%;
-   padding-bottom: 100px;
+   opacity:1;
+    -webkit-transition: opacity 1s;
+    transition: opacity 2s;
+    /* border:1px solid #021a40; */
 
 }
 
  .imageonehead:hover {
 
-display: none; 
+opacity: 0;
 }
 
+
+/* image two */
 
 
 .imagetwo {
   width:31%;
-  
-  
+  position: relative;
  
 }
 
 
-.imagetwoorange 
-{ 
-width:31%;}
+.imagetwoorange {
+   position: absolute;
+   left: 573px;
+   right: 0px;
+   width:31%;
+  opacity:0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+
+
+
+}
+
+
+.imagetwoorange:hover {
+opacity: 1;
+
+}
+
+
+/* image three */ 
+
 
 .imagethree {
 
@@ -165,7 +191,7 @@ h3{
   text-transform: uppercase;
   text-align: center;
   font-family: Helvetica;
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
 }
 
