@@ -51,7 +51,7 @@ footer
 
 .content
 {
-  height: 529px;
+  height: auto;
   min-height: 520px;
   background: white;
   position: relative;
@@ -152,7 +152,7 @@ opacity: 0;
 
 .imagetwoorange {
    position: absolute;
-   left: 573px;
+   left: 657px;
    right: 0px;
    width:31%;
   opacity:0;
